@@ -87,9 +87,9 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> .config  #ALDRIVER  ~3m
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #mentohust
         ## FTP服务 ~0.2MB ##
-        echo "CONFIG_FIRMWARE_INCLUDE_FTPD=y" >> .config #mentohust
+        echo "CONFIG_FIRMWARE_INCLUDE_FTPD=n" >> .config #mentohust #chx
         ## Alist测试 ~10MB ##
-        echo "CONFIG_FIRMWARE_INCLUDE_ALIST=y" >> .config #Alist
+        echo "CONFIG_FIRMWARE_INCLUDE_ALIST=n" >> .config #Alist #chx
         ##流控QOS##
         echo "CONFIG_FIRMWARE_INCLUDE_SQM=n" >> .config #Qos限速
         #CPU超频#
